@@ -1,0 +1,35 @@
+.ChatOnlineFriend {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(255, 187, 0);
+}
+.ChatOnlineFriend:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.ChatOnlineFriendImgContainer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.badge-online {
+  background-color: #00baff;
+  border-radius: 50%;
+  height: 10px;
+  left: 31px;
+  position: absolute;
+  top: 18%;
+  width: 10px;
+}
+.ChatOnlineFriend span {
+  padding-left: 10px;
+}

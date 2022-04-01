@@ -1,0 +1,58 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+  justify-content: space-between;
+  background-color: rgb(255, 187, 0);
+}
+.conversation:hover {
+  background-color: rgb(240, 240, 240);
+}
+.conversation-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: -11px;
+  display: inline-block;
+}
+.conversation-name {
+  margin-left: 20px;
+}
+.threeDot {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  background-color: rgb(255, 187, 0);
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+  padding: 7px;
+}
+.conversation:hover .threeDot {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+.message:hover .threeDot {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 992px) {
+  .conversation-name {
+    display: none;
+  }
+  .ChatOnlineFriend span {
+    display: none;
+  }
+  .open-chat {
+    font-size: 18px !important;
+  }
+}

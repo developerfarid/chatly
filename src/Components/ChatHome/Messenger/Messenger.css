@@ -1,0 +1,92 @@
+.messenger {
+  height: calc(100vh - 160px);
+  display: flex;
+}
+.chatMenu {
+  flex: 2.5;
+}
+.chatBox {
+  flex: 5;
+}
+.chat {
+  flex: 2.5;
+}
+.chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 15px;
+}
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatWrapper {
+  padding: 10px;
+  height: 100%;
+}
+.chatWrapper {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.chatMenuWrapper {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.chatMenuInput {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-left: 10px;
+}
+.chatBoxWrapper {
+  position: relative;
+}
+.chatBoxButtom {
+  margin-top: 5px;
+  width: 100%;
+}
+.chatMenuInput:focus {
+  outline: none;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatBoxButtom input {
+  width: calc(100% - 50px);
+  height: 60px;
+  padding: 10px;
+}
+.chatBoxButtom input:focus {
+  outline: none;
+}
+
+.open-chat {
+  font-size: 40px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+.chatBoxButtom .btn {
+  width: 42px !important;
+  display: inline-block;
+  text-align: center;
+  padding-right: 30px;
+  background-color: rgb(255, 187, 0);
+  color: white;
+}
+.chatBoxButtom .search input {
+  text-indent: 0px !important;
+  padding-right: 40px !important;
+}
+.chatWrapper .span {
+  color: white;
+}
+hr {
+  color: white;
+}
